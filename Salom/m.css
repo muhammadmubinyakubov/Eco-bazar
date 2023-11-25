@@ -1,0 +1,41 @@
+.a1{
+   width: 70%;
+   height: 100vh;
+   border: 1px;
+   background-image: url('./rasmlar/start.gif');
+   background-size: 10%;
+   background-repeat:repeat-x;
+display: inline-block;
+
+
+
+}
+
+.a2 h1{
+    text-align: center;
+    color:rgb(252, 5, 5);
+    
+  
+    
+}
+
+.a1 :hover{
+    color: blueviolet;
+    background-color: blueviolet;
+    
+}
+.a2{
+    background-image: url('./rasmlar/remove.png');
+    border: 1px ;
+    width: 50%;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    
+    position: relative;
+}
+.markaz{
+    position: absolute;
+    top:40px;
+    left:70px;
+}

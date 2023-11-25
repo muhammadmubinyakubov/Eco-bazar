@@ -1,0 +1,68 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-image: url("./rasmlar/BG Shepes.png");
+  background-size: 100%;
+}
+.container{
+  max-width: 1140px;
+  margin:20px auto;
+  background-color: white;
+  height: 100vh;
+}
+.headasos{
+  display: flex;
+  justify-content: space-between;
+  padding:10px 0;
+  margin:0 30px;
+  border-bottom: 1px solid gray;
+  color:gray;
+}
+.head2 span{
+  margin-left:12px;
+}
+.head2 i{
+  font-size: 12px;
+}
+/* Head End */
+.header2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0 30px;
+  padding:15px 0;
+}
+.header22 input{
+  font-size: 20px;
+}
+#search{
+  background-color:#00B207;
+  color:white;
+  padding:5px 15px;
+  border: 1px solid gray;
+  margin-left:-5px;
+  border-radius: 0 5px 5px 0;
+}
+#text{
+  border:1px solid gray;
+  padding:5px;
+  border-radius: 5px 0 0 5px;
+}
+.header23{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.header23 .call i{
+  font-size: 40px;
+  padding:0 5px;
+}
+.header23 .tel p{
+  color: gray;
+  font-size: 14px;
+}
+.header23 .tel h3{
+  font-size: 24px;
+}

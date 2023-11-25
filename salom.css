@@ -1,0 +1,426 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  body{
+    background-image: url("./rasmlar/BG Shepes.png");
+    background-size: 100%;
+  }
+  .container{
+    max-width: 1140px;
+    margin:20px auto;
+    background-color: white;
+    height: 100vh;
+  }
+  .headasos{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 0;
+    margin:0 30px;
+    border-bottom: 1px solid gray;
+    color:gray;
+  }
+  .head2 span{
+    margin-left:12px;
+  }
+  .head2 i{
+    font-size: 12px;
+  }
+  /* Head End */
+  .header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 30px;
+    padding:15px 0;
+  }
+  .header22 input{
+    font-size: 20px;
+  }
+  #search{
+    background-color:#00B207;
+    color:white;
+    padding:5px 15px;
+    border: 1px solid gray;
+    margin-left:-5px;
+    border-radius: 0 5px 5px 0;
+  }
+  #text{
+    border:1px solid gray;
+    padding:5px;
+    border-radius: 5px 0 0 5px;
+  }
+  .header23{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 20%;
+  }
+  .header23 .call i{
+    font-size: 40px;
+    padding:0 5px;
+    
+  }
+  .header23 .tel p i{
+    color: gray;
+    font-size: 14px;
+ display: flex;
+  }
+  .header23 .tel h3{
+    font-size: 20px;
+  }
+  .navbar{
+    height: 100vh;
+    background-color: rgba(0, 0, 0,  0.6);
+    height: 6vh;
+    padding: 1.2rem;
+  }
+  .navbar-nav {
+    
+   padding-left: 20px;
+   letter-spacing: 3px;
+   display: flex;
+   text-decoration: none;
+   
+
+  }
+  .navbar-nav a{
+
+text-decoration: none;
+
+
+
+  }
+ 
+  .activ{
+    color: white;
+  }
+   
+    .nav2 , .nav3{
+        display: inline-block;
+        padding-left: 10px;
+        color: white;
+
+    }
+  
+    .nav2 a i{
+      padding-left: 300px;
+    }
+
+  .nav2 i{
+   padding-left: 10px;
+   font-size: 30px;
+   color: white;
+  
+ 
+
+
+  }
+.nav2 h3{
+    display: flex ;}
+
+    /* Header3 Start */
+.foto{
+  display: flex;
+ margin: 10px;
+
+
+}
+.foto1{
+  width: 65%;
+  background-image: url("./rasmlar/header_fon.png") , linear-gradient(to right top,#01471A,#00C158);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color:white;
+  padding-left:20px;
+  line-height: 40px;
+  height: 440px;
+}
+.off{
+  background-color: orange;
+  padding:5px 10px;
+  border-radius: 7px;
+}
+
+.foto1 h2{
+  font-size: 40px;
+  width: 50%;
+}
+.foto1 .button{
+  border-left: 1px solid white;
+  padding-left:10px;
+  line-height: 30px;
+  margin-top:15px;
+}
+.shopButton{
+  background-color: white;
+  color: #01471A;
+  font-weight: bold;
+  text-decoration: none;
+  padding:0px 20px;
+  border-radius: 30px;
+  margin-top:15px;
+}
+.shopButton:hover{
+  background-color: #01471A;
+  color:white;
+  box-shadow: 0 0 3px white;
+}
+.foto2{
+  width: 35%;
+
+  background-image: url('./rasmlar/logo2-removebg-preview.png');
+height: 220px;
+background-repeat: no-repeat;
+background-size: contain;
+background-position: right bottom;
+background-color: bisque;
+border: 1px solid gainsboro;
+
+
+}
+.foto23 h3{
+margin-left: 20px;
+}
+
+.foto23{
+  background-image: url('./rasmlar/BG.png');
+  width: 100%;
+  height: 220px;
+
+
+}
+.padding
+{
+  padding: 40px;
+  
+
+}
+.foto22{
+margin: 40px;
+margin-left: 10px;
+
+
+}
+.submit{
+  margin-left: 30%;
+}
+.submit a {
+color: #00B207;
+text-decoration: none;
+
+}
+.submit h2{
+  font-size: 25px;
+}
+
+.text2{
+  color: white;
+ margin-left: 30px;
+}
+
+.text2 p{
+margin-left: 70px;
+}
+.text2 h2{
+  font-size: 31px;
+}
+
+.table a{
+  text-decoration: none;
+  color: #00B207;
+  padding: 10px;
+}
+
+    /* Header3 End */
+   /* header4 start */
+    .zakaz11 , .zakaz12{
+        display: inline-block;
+    }
+    .header4{
+      border: 1px solid rgb(238, 230, 230);
+      margin-top: 25px;
+      margin-left: 10px;
+      padding: 20px;
+     
+    }
+    
+    .header4 i{
+        color: #00B207;
+        font-size: 4vh;
+
+        
+    }
+    .zakaz21 , .zakaz22{
+        display: inline-block;
+    }
+    .zakaz31 , .zakaz32{
+        display: inline-block;
+    }
+    .zakaz41 , .zakaz42{
+      display: inline-block;
+    }
+.zakaz1 , .zakaz2 , .zakaz3 , .zakaz4{
+    display:inline-block;
+    padding-right: 8vh;
+    
+}
+.padding p h2{
+  color: white
+  
+}
+
+
+
+
+    .header4{
+       
+       
+        width: 100%;
+      
+    }
+    :hover #submit{
+      background-color: #00B207;
+    }
+    /* header4 end */
+  /* header5 start */
+  .header5{
+   
+    width: 100%;
+    height:   58vh;
+    
+  }
+  .header55{
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 20px;
+
+    margin-top: 25px;
+  }
+
+  .header55 a{
+    color: green;
+    text-decoration: none;
+    padding-top: 20px;
+   
+  }
+
+  .images1{
+    width: 100%;
+    height: 25vh;
+    margin-top: 25px;
+    font-size: 15px;
+   
+   display: flex;
+  }
+
+ 
+
+   
+   
+  .images1  ,a , h3{
+   
+   
+    text-align: center;
+    color: black;
+    text-decoration: none;
+   
+
+
+
+  }
+
+  .images11{
+    border: 1px solid gray;
+    margin: 5px;
+  }
+  .images12{
+    border: 1px solid gray;
+    margin:5px;
+  }
+  .images13{
+    border: 1px solid gray;
+    margin:5px;
+  }
+  .images14{
+    border: 1px solid gray;
+    margin:5px;
+  }
+  .images15{
+    border: 1px solid gray;
+    margin:5px;
+  }
+  .images16{
+    border: 1px solid gray;
+    margin:5px;
+  }
+
+
+
+  .images2 img{
+    
+    width: 100%;
+    
+   
+  }
+
+
+
+  .images2{
+    width: 100%;
+    height: 25vh;
+    margin-top: 25px;
+    margin-left: 40px;
+   display: flex;
+font-size: 15px;
+
+  }
+
+
+  .images21{
+    border: 1px solid gray;
+    margin:5px;
+  }
+.images22{
+  border: 1px solid gray;
+  margin:5px;
+}
+.images23{
+  border: 1px solid gray;
+  margin:5px;
+}
+.images24{
+  border: 1px solid gray;
+  margin:5px;
+}
+.images25{
+  border: 1px solid gray;
+  margin:5px;
+}
+.images26{
+  border: 1px solid gray;
+  margin:5px;
+  padding: 5px;
+}
+.images2 a{
+  text-decoration: none;
+}
+.images2 a{
+  margin: 10px;
+}
+.header6{
+  width: 100%;
+  height: 50vh;
+  border: 2px solid red;
+  margin-top: 80px;
+}
+
+
+
+
+
